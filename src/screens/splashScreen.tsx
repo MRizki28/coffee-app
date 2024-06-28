@@ -19,7 +19,7 @@ const SplashScreen: React.FC<Props> = ({ navigation }) => {
     return (
         <ImageBackground source={require('../../assets/splash2.png')} className="flex-1 justify-end items-center">
             <View>
-                <Text className="text-center mb-10 text-white text-4xl font-semibold p-5">Coffe so good, your taste buds will love it.</Text>
+                <Text className="text-center mb-10 text-white text-4xl font-semibold p-5" style={{ fontFamily: "sora-regular" }}>Coffe so good, your taste buds will love it.</Text>
             </View>
 
         </ImageBackground>
